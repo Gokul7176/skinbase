@@ -1,0 +1,107 @@
+.header {
+  text-align: center;
+  padding: 1.5rem;
+  background-color: #f2f2f2;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  padding: 2rem;
+  background: #fffbe6;
+}
+
+.heroImg {
+  border-radius: 12px;
+}
+
+.heroContent {
+  max-width: 400px;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.7rem 1.2rem;
+  background: #0070f3;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+}
+
+.features {
+  padding: 2rem;
+  background-color: #f7f7f7;
+}
+
+.features ul {
+  list-style: none;
+  padding: 0;
+}
+
+.features li {
+  margin-bottom: 0.8rem;
+  font-size: 1.1rem;
+}
+
+.formSection {
+  padding: 2rem;
+  background-color: #fff;
+}
+
+.formContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.inputField {
+  padding: 0.7rem;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.button {
+  padding: 0.7rem;
+  font-size: 1rem;
+  background-color: #0070f3;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+
+.footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #eee;
+}
+.heroContent {
+  max-width: 400px;
+  color: #333; /* dark grey for readability */
+}
+
+.features {
+  padding: 2rem;
+  background-color: #f7f7f7;
+  color: #333;
+}
+
+.formSection {
+  padding: 2rem;
+  background-color: #fff;
+  color: #333;
+}
+
+.footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #eee;
+  color: #333;
+}
+select, option {
+  color: #000;       /* Ensures text is visible */
+  background: #fff;  /* Ensures dropdown background is white */
+}
